@@ -1,0 +1,99 @@
+body {
+    background-color: #2f2b3a;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    font-family: "Bank Gothic", "Futura", "Arial";
+
+}
+
+#container {
+    color: #d7dfe4;
+}
+.digit {
+  font-size: 150px;
+  /*font-weight: bold;*/
+  font-family: "digital-7";
+}
+
+#footer-container {
+    position: absolute;
+    bottom: 10%;
+}
+
+.digit {
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.txt {
+    font-size: 40px;
+    font-weight: bold;
+}
+.social-txt {
+    font-size: 20px;
+    color: white;
+}
+
+#btn-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn {
+    padding: 7px 25px;
+    font-size: 15px;
+    margin: 0px 10px;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start {
+    background-color: #1abc9c;
+}
+
+#start :hover {
+    background-color: yellow;
+}
+
+#stop {
+    background-color: #ff0000;
+}
+
+#reset {
+    background-color: #0400fc;
+}
+
+@media screen and (max-width:800px){
+    #time span{
+        font-size: 4rem;
+    }
+    #time{
+        display: flex;
+        flex-direction: column;
+    }
+    #container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+#lap {
+    background-color: rgb(166, 17, 211);
+}
+
+#clearLap {
+    background-color: #ee42a6;
+}
+
+#laps {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 25px;
+}
