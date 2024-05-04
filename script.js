@@ -19,13 +19,8 @@ function stop() {
 }
 
 function reset() {
-    timer = false;
-    hr = min = sec = count = 0;
-
-    $id("hr").innerHTML = "00";
-    $id("min").innerHTML = "00";
-    $id("sec").innerHTML = "00";
-    $id("count").innerHTML = "00";
+   
+    location.reload(); 
 
 }
 
